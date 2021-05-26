@@ -72,7 +72,7 @@ services:
         - mynet
       environment:
         - GF_SERVER_DOMAIN="127.0.0.1"
-        - GF_SERVER_ROOT_URL=%(protocol)s://192.168.5.12:3000
+        - GF_SERVER_ROOT_URL=%(protocol)s://192.168.5.128:3000
         - GF_SERVER_SERVE_FROM_SUB_PATH="true"
         - GF_SESSION_COOKIE_SECURE="false"
         
